@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WWHTSUMHKpV12wJGWkK021tCYLq1dAcuhkjbesSy9i0x/g/W5R1knygvK9K+FgDWUvJHDTl2UrpZJSyUgSFLYg==",
+  "dgSpecHash": "j7sdIT8r6v3bhAm2mo3t13C2BdiMQ1AutTC7B7mB3pq8GpICJwiodNB9d5YpEwavmpAZry/usFgB1KAe3egRtg==",
   "success": true,
   "projectFilePath": "/Users/jeremyvillalva/coding/cs/timeCalculator/timeCalculator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/jeremyvillalva/.nuget/packages/spectre.console/0.48.0/spectre.console.0.48.0.nupkg.sha512",
+    "/Users/jeremyvillalva/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512"
+  ],
   "logs": []
 }
