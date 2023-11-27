@@ -8,7 +8,7 @@ public static class Start
             new SelectionPrompt<string>()
                 .Title("whats your [red]favorite thing[/]?")
                 .AddChoices(new[]{
-                    "convert minutes to hours","Exit"
+                    "convert minutes to hours","total wage for the week","Exit"
                 
                 }));
             
@@ -17,11 +17,12 @@ public static class Start
             case "convert minutes to hours":
                 MenuFunctions.HoursToMinutes(); // calculates total hours a task would take 
                 break;
+            case "total wage for the week":
+                MenuFunctions.HowMuchAreYouGettingPaidThisWeek();
+                break;
             case "exit":
                 Environment.Exit(1);
                 break;
-            
-
         }
     }
 }
